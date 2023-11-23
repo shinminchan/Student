@@ -64,6 +64,7 @@ public class FileIO {
 			// 파일의 처음 위치로 
 			br = new BufferedReader(new FileReader(file));
 			
+			
 			// 데이터 읽기
 			int i = 0;
 			while((str = br.readLine()) != null) {
